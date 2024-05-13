@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-navbar{
+    background-color:  rgb(247, 249, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav-left{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+.topnav-left a{
+    color: #000000;
+    padding: 20px;
+    display: flex;
+}
+
+a:hover{color: rgba(170, 187, 97, 0.5)}
+
+.topnav-right{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.topnav-right a{
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.topnav-right{
+    object-position: top;
+    font-size: 1.5rem;
+}
+
+.main-description{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container{
+    align-items: center;
+}
+
+.options {
+    background-color: rgb(252, 239, 175);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+.option img {
+    border-radius: 999999999999px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+    max-width: 80%;
+    width: 300px;
+}
+
+.footer{
+    background-color: rgb(247, 249, 204);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    padding: 50px, 50px;
+    padding-bottom: 40px;
+}
+
+.footer img{
+    width: 120px;
+    height: 100px;
+    object-fit:cover;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: bottom;
+}
+
+.footer form, p{
+    text-align: center;
+}
+
+
+.carousel-image{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image:before{
+    content: "";
+    display: block;
+    padding-top: 50%;
+}
+
+.despre-noi{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.echipa p{
+    text-align: left;
+}
+
+.echipa{
+    padding-bottom: 50px;
+}
+
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact{
+    text-align: left;
+}
+
+.cols p{
+    text-align: center;
+}
+
+.col1, .col2, .col3, .col4{
+    border-style: double;
+}
+
+.drepturi{
+    text-align: center;
+}
+
+
+
